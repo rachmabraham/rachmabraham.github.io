@@ -1,0 +1,24 @@
+h1 {
+  color: tomato;
+  background-color: beige;
+}
+h2 {
+  color: gray;
+  background-color:beige;
+}
+.yep {
+  color: red;
+  font-size: 1.5em;
+  text-shadow: 5px;
+  5px black;
+}
+
+#whoop {
+  color:green;
+}
+
+#hello {
+  text-align: center;
+  border: 3px solid black;
+
+}
