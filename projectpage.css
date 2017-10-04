@@ -1,0 +1,17 @@
+body {
+	font-family: Courier New;
+	background-image:url('https://static.pexels.com/photos/386148/pexels-photo-386148.jpeg');
+	min-height:100;
+	min-width:100;
+	background-size:100%;
+}	
+
+.WIP {
+	text-align:center;
+	display:flex;
+	align-items: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
