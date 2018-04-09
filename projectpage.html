@@ -1,32 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>My Projects</title>
-
-<!-- This is the bootstrap code -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"> </script>
-<!-- This is the link to my style sheet -->
-
-<link rel="stylesheet" href="projectpage.css">
-<!-- OK. The Real Code Starts Here! -->
-
+  <title>My Projects</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- This code is for fonts -->
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+<link rel="stylesheet" href="projectpage.css">  
 </head>
 <body>
-<div class="container">
-	<div class="jumbotron WIP">
-	<div class="container">
-	<h1>This is a work in progress.</h1>
-	<p>Enjoy the minigame!</p>
-	<iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/190535557/?autostart=false" frameborder="0" allowfullscreen></iframe>
-	</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">My Portfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="https://rachmabraham.github.io/">Back</a></li>
+        <li><a href="https://rachmabraham.github.io/experience">My Resume</a></li>
+        <li><a href="#">Contact</a></li> 
+        <!-- UPDATE THE CONTACT INFO TO SHOW A POP UP -->
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron portfolioIntro">
+  <div class="container text-center highlightme">
+    <h1>My Projects</h1>
+    <br>
+    <p>
+    <a href = "#androidMob">Android Mobile</a>  |  <a href = "#webSiteDev">Website Dev</a>
+    </br>
+    Course Specific: <a href = "#">CS 50 (Harvard)</a>
+    </p>
+  </div>
 </div>
-</div>
-<!-- this is some j query and javascript information from bootstrap as well -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>	
+  
+<div class="container-fluid bg-3 text-center">    
+  <h3 id="androidMob">Android Mobile Development</h3><br>
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-6">
+      <p>Just Java and Court Counter</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive-center" style="width:75%" alt="Image">
+    </div>
+    <div class="col-sm-6"> 
+      <p>Game of Thrones Quizlet</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive-center" style="width:75%" alt="Image">
+    </div>
+  </div>
+</br> </br>
+  <h3 id="webSiteDev">Website Development</h3></br>
+  <div class="row">
+    <div class="col-sm-12">
+      <p>Resume and Portfolio</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive-center" style="width:50%" alt="Image">
+    </div>
+  </div>
+</div><br><br>
+
+<footer class="container-fluid text-center">
+  <a href="#top">Top of Page</a href>
+</footer>
+
 </body>
 </html>

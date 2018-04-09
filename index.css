@@ -1,5 +1,7 @@
 .jumbotron {
-	background-color: white;
+	background-color:#A7B3A5;
+	color:#272727;
+	border-radius: 2px;
 }
 
 .intropage {
@@ -12,10 +14,22 @@
   	transform: translate(-50%,-50%);
 }
 
+.myName {
+	color:#F4F4F4;
+	font-weight:bold;
+}
+
 body {
-	font-family: Courier New;
-	background-image:url('https://static.pexels.com/photos/386148/pexels-photo-386148.jpeg');
+	font-family: 'Roboto Slab', serif;
+	background-image:url('https://images.pexels.com/photos/776656/pexels-photo-776656.jpeg?auto=compress&cs=tinysrgb&h=650&w=940');
 	min-height:100;
 	min-width:100;
 	background-size:100%;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-color:#F0EBF3;
 }	
+
+a {
+	color:#AF473C;
+}

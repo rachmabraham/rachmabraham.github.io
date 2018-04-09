@@ -1,0 +1,23 @@
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+body {
+  background-image:url('https://images.pexels.com/photos/235621/pexels-photo-235621.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  min-height:100;
+  min-width:100;
+  background-size:100%;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  background-color:#D5D8DF;
+  font-family: 'Roboto Slab', serif;
+  
+}
+
+.pageMain {
+  background-color:#E9E9E9;
+  position:center;
+  min-height:100%;
+}
+
+.mockupPic {
+  max-width: 100%;
+}
+
